@@ -1,0 +1,22 @@
+Component,Description,Link,Required SKU,Units per SKU,SKU Price,Price Per Unit,Required Units,Price Per Build,Total Price,Board Refs,Typical Pack
+Electronics,,,,,,,,,,,
+Heltec WiFi LoRa 32 V3,ESP32-S3 + SX1262 915 MHz LoRa + OLED. Plugs into J1/J2. Same board as the gate node / gateway,https://www.amazon.com/dp/B0CW6151WJ,1,2,44.98,,1,,,J1 J2,2-pack
+Coop node carrier PCB,"110 x 75 mm, 2-layer, 1.6 mm FR-4 (hardware/pcb/coop_node_carrier). Order Gerbers from JLCPCB / PCBWay; parts on the 'Coop Node Carrier PCB' tab",https://cart.jlcpcb.com/quote,1,5,,,1,,,,5 boards
+Antenna pigtail U.FL to SMA,"U.FL (IPEX) to RP-SMA female bulkhead, 6 inch, so the antenna mounts outside the enclosure",https://www.amazon.com/dp/B07T85B3LN,1,2,6.39,,1,,,,2 pcs
+915 MHz LoRa antenna,"915 MHz omni, 6 dBi, SMA male. Mount vertically, outside, towards the house",https://www.amazon.com/dp/B0FQK27BSP,1,2,12.99,,1,,,,2 pcs
+Mini360 buck converter (5V),"MP1584EN 5-30V in, set to 5V out. Mounts on the carrier at U1 on 4 header pins",https://www.amazon.com/dp/B0FQTP5HGZ,1,5,9.57,,1,,,U1,5-pack
+DHT22 temp + humidity sensor,"DHT22 / AM2302 module (3-pin, has its own pull-up, so R7 can be left out). J8 + / DATA / -. Keep the cable ~1 m at 3.3V",https://www.amazon.com/dp/B0D9W5CMHS,1,3,7.99,,1,,,J8,3-pack
+"Relay module (AUX, optional)",1-channel 3V relay module for a light / heater on J5 (firmware holds it off for now),https://www.amazon.com/dp/B09XTZSG53,1,6,9.99,,1,,,J5,6-pack
+Weatherproof enclosure,"IP65 ABS junction box, about 200 x 120 x 75 mm, room for the carrier + 25 mm above it for the Heltec and cables; cable glands",https://www.amazon.com/s?k=IP65+waterproof+junction+box+200x120x75+with+cable+glands,1,,,,1,,,,1
+Door,,,,,,,,,,,
+H-bridge motor driver (DRV8871),"DRV8871 breakout, 6.5-45V, 3.6A peak, IN1/IN2 logic. Power from J10 (VM/GND), logic from J3 (GND/IN1/IN2)",https://www.amazon.com/dp/B0CDWW7FZ8,1,2,,,1,,,J3 J10,2-pack
+12V worm gear motor,"12V DC worm gear motor, ~35 RPM, self-locking (the door stays put with the power off). With a ~25 mm spool a 30 cm door lifts in ~7 s",https://www.amazon.com/dp/B00NYP2W54,1,1,,,1,,,H-bridge OUT,1
+Limit switches (open / closed),"2x N.O. magnetic reed switches with magnets, wired, outdoor rated. Each closes to GND at its end of travel",https://www.amazon.com/s?k=magnetic+reed+switch+normally+open+wired+door+sensor+2+pack,1,,,,2,,,J7,2-10
+Door push button (optional),"Momentary N.O. push button, IP67, 16-19 mm panel mount. Open / close / stop at the coop",https://www.amazon.com/s?k=momentary+push+button+waterproof+IP67+normally+open+16mm,1,,,,1,,,J11,1-5
+Door rope / pulley hardware,Braided line + small pulley for a vertical slide (guillotine) door; the door closes by gravity,https://www.amazon.com/s?k=small+pulley+wheel+and+braided+cord+diy,1,,,,1,,,,kit
+Solar power,,,,,,,,,,,
+Battery 12V 10Ah LiFePO4,12V 10Ah LiFePO4 with a BMS that BLOCKS CHARGING BELOW 0C (check the listing). ~120 Wh: ~12 days of node standby. Alternative for very cold coops: 12V 12Ah AGM (charges below freezing; use half its capacity),https://www.amazon.com/s?k=12V+10Ah+LiFePO4+battery+low+temperature+charge+protection,1,,,,1,,,,1
+Solar panel 20W 12V,20W 12V monocrystalline (Voc ~21-22V). Covers the node (~8 Wh/day) plus recharge after cloudy days in winter sun,https://www.amazon.com/dp/B00W813E4I,1,1,,,1,,,,1
+Solar charge controller 10A PWM,"10A 12V PWM controller with a LiFePO4 profile, LOAD terminals and adjustable low-voltage disconnect. Carrier J6 goes on the LOAD output",https://www.amazon.com/dp/B09MV5ZX59,1,1,,,1,,,J6,1
+Inline fuse holder + 5A fuse,"ATC blade fuse holder, 14-16 AWG, with 5A fuse, at the battery positive (battery -> controller)",https://www.amazon.com/s?k=inline+ATC+blade+fuse+holder+14+awg+waterproof+5A,1,,,,1,,,,pack
+Wire 16 AWG + MC4 extension,Red/black 16 AWG for battery and load runs; MC4 extension from the panel to the controller,https://www.amazon.com/s?k=16+awg+red+black+wire+25+ft,1,,,,1,,,,spool

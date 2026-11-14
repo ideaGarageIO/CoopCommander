@@ -1,0 +1,18 @@
+Component,Description,Link,Required SKU,Units per SKU,SKU Price,Price Per Unit,Required Units,Price Per Build,Total Price,Board Refs,Typical Pack
+Female pin header 2.54mm,1x40 straight female header strip; cut into 2x 1x18 for the Heltec (cutting loses 1 pin),https://www.amazon.com/dp/B00VVI1L1W,1,10,5.99,,1,,,J1 J2,10-20 strips
+Male pin header 2.54mm,1x40 breakaway male header; 1x3 for J9 plus 4 single pins to stand the Mini360 off the board,https://www.amazon.com/dp/B0FRZW75VS,1,20,6.29,,1,,,J9,10-40 strips
+JST-XH 3-pin PCB header,JST-XH 2.54mm 3-pin shrouded vertical through-hole header (B3B-XH-A style); kit also includes housings and crimp terminals,https://www.amazon.com/dp/B0B2R99X99,1,50,6.39,,1,,,J5,50 headers
+JST-XH 3-pin to Dupont cable,"20cm 24AWG, JST-XH 3-pin housing to 3x Dupont female, for the AUX relay module",https://www.amazon.com/dp/B0GX9GBVN8,1,12,9.99,,1,,,J5,12 cables
+JST-XH 4-pin PCB header,"JST-XH 2.5mm 4-pin vertical through-hole header (B4B-XH-A style), for the H-bridge module",https://www.amazon.com/s?k=JST+XH+4+pin+pcb+header+B4B-XH-A+kit,1,,,,1,,,J3,kit
+JST-XH 4-pin to Dupont cable,JST-XH 4-pin housing to 4x Dupont female (3V3 / GND / IN1 / IN2) for the H-bridge module; or crimp one from the header kit,https://www.amazon.com/s?k=JST+XH+4+pin+to+dupont+female+cable,1,,,,1,,,J3,10 cables
+Screw terminal 5.08mm 2-pos,"PCB screw terminal, 5.08mm pitch, 2 position (KF301-2P / MKDS style)",https://www.amazon.com/dp/B0DPYDRNF7,1,60,7.98,,3,,,J6 J10 J11,assortment
+Screw terminal 5.08mm 3-pos,"PCB screw terminal, 5.08mm pitch, 3 position (KF301-3P / MKDS style)",https://www.amazon.com/dp/B0H8SPXGCM,1,10,7.19,,2,,,J7 J8,assortment
+PTC resettable fuse 0.5A,"Radial PPTC, 0.5A hold / 1A trip, >=30V (RXEF050, MF-R050 or equivalent), 5mm lead pitch. Logic supply",https://www.amazon.com/dp/B07969FY8X,1,10,5.98,,1,,,F1,10-50
+PTC resettable fuse 3A,"Radial PPTC, 3A hold / 6A trip, >=16V (RXEF300 30V preferred, MF-RHT300), ~5mm lead pitch. Motor supply",https://www.amazon.com/s?k=RXEF300+PPTC+resettable+fuse+3A+radial,1,,,,1,,,F2,10-20
+Schottky diode 1N5819,"1N5819, 40V 1A, DO-41 axial",https://www.amazon.com/dp/B0FC2CWKPL,1,150,7.99,,2,,,D1 D3,20-100
+Schottky diode 1N5822,"1N5822, 40V 3A, DO-201AD axial. Motor supply reverse-polarity protection",https://www.amazon.com/s?k=1N5822+schottky+diode+3A+DO-201AD,1,,,,1,,,D6,10-50
+TVS diode P6KE18CA,"P6KE18CA, 600W bidirectional, 15.3V standoff, DO-15 axial",https://www.amazon.com/dp/B0GX6MC3RH,1,20,4.19,,1,,,D2,10-50
+TVS diode P6KE6.8CA,"P6KE6.8CA (P6KE6V8CA), 600W bidirectional, 5.8V standoff, DO-15 axial",https://www.amazon.com/dp/B079KJ6LND,1,50,5.99,,3,,,D4 D5 D7,10-50
+Electrolytic cap 100uF 35V,"100uF 35V radial, 6.3mm diameter, 2.5mm lead pitch, 105C (35V covers the 16V positions too)",https://www.amazon.com/dp/B0GTXVDWBK,1,50,5.69,,4,,,C1 C3 C7 C8,20-100
+Ceramic cap 100nF,"100nF (104) 50V ceramic, radial, 5.08mm lead pitch",https://www.amazon.com/dp/B08B3VCK42,1,120,6.99,,5,,,C2 C4 C5 C6 C9,50-100
+Resistor kit 1% metal film 1/4W,"1/4W 1% metal film, 6.3mm body. Needs 1k, 10k, 22k, 100k; one kit covers every build (1x 100k, 6x 10k, 3x 1k, 1x 22k)",https://www.amazon.com/dp/B0FT362FV2,1,1,7.99,,1,,,R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R11,kit

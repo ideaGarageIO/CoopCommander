@@ -1,0 +1,31 @@
+# Build output (scripts/build.sh)
+build/
+*.elf
+*.hex
+*.bin
+.pio/
+
+# Per-build coop config copied in by scripts/build.sh --coop (keep the
+# per-coop sources in config/coops/)
+firmware/coop_node/coop_config.h
+
+# Python (board generator scripts)
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# KiCad local/user state
+*.kicad_prl
+*-backups/
+fp-info-cache
+_autosave-*
+*.lck
+*.bak

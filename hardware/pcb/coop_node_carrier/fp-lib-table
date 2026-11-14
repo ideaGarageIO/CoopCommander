@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "coop_node")(type "KiCad")(uri "${KIPRJMOD}/coop_node.pretty")(options "")(descr "Coop node carrier custom footprints"))
+)
